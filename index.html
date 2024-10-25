@@ -83,9 +83,9 @@
                   <h2 class="card-title">parallelogram</h2>
                   <p class="text-center text-3xl">Area (A) = b X h</p>
                  <div>
-                  <input type="text" class="w-24 text-2xl p-2 rounded" placeholder="b">
+                  <input id="input-base" type="text"  class="w-24 text-2xl p-2 rounded" placeholder="b">
                   <span class="mr-4 ml-2">cm</span>
-                  <input type="text" class="w-24 text-2xl p-2 rounded" placeholder="h">
+                  <input id="input-height" type="text" class="w-24 text-2xl p-2 rounded" placeholder="h">
                   <span class="mr-4 ml-2">cm</span>
                  </div>
 
@@ -93,7 +93,7 @@
                   <p>Area(A): <span><span>cm</span><sup>2</sup></span></p>
                  </div>
                   <div class="card-actions justify-end">
-                    <button class="btn btn-primary w-full">Calculate</button>
+                    <button onclick="paralellogramArea()" class="btn btn-primary w-full">Calculate</button>
                   </div>
                 </div>
               </div>
