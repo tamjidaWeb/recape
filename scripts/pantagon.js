@@ -1,10 +1,8 @@
-function pentagonArea(){
-    const perimeter = getInputValue('pentagon-perimeter');
+function pentagonArea (){
+    const perimenetr = getInputValue('pentagon-perimeter');
     const apothem = getInputValue('pentagon-apothem');
-    console.log(perimeter, apothem);
-
-    const area = 0.5 * perimeter * apothem;
-    setInnerText('pentagon-span', area)
+    const area =0.5* perimenetr* apothem;
+setInnerText('pentagon-span', area);
 
 }
 
@@ -13,11 +11,9 @@ function getInputValue(inputFieldId){
     const inputText = inputField.value;
     const value = parseFloat(inputText);
     return value;
-
 }
 
 function setInnerText(elementId, area){
     const element = document.getElementById(elementId);
     element.innerText = area;
-
 }
