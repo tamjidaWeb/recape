@@ -135,10 +135,19 @@
                     alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <h2 class="card-title">Pantegon!</h2>
+                  <p class="text-center text-2xl">Area (A) =0.5 X p X b
+                    </p>
+
+                    <div class="flex gap-5">
+                      <input id="pentagon-perimeter" class="w-24  text-2xl" type="text" placeholder="peri">
+                      <span>cm</span>
+                      <input id="pentagon-apothem" class="w-24 text-2xl" type="text" placeholder="apo">
+                      <span>cm</span>
+                    </div>
+                    <p>Area: <span>cm</span> <sup>2</sup></p>
                   <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
+                    <button onclick="pentagonArea()" class="btn btn-primary w-full">Calculate</button>
                   </div>
                 </div>
               </div>
@@ -159,5 +168,6 @@
     <script src="scripts/calculate.js"></script>
     <script src="scripts/rectangle.js"></script>
     <script src="scripts/paralellogram.js"></script>
+    <script src="scripts/pantagon.js"></script>
 </body>
 </html>
